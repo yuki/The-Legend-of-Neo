@@ -10,9 +10,9 @@ Eres Neo, un informático que ha conseguido entrar en Matrix. Pero no es todo ta
 
 Cuando un personaje te pregunte, dile "si" o "no" si quieres su ayuda. Después, respóndele a las preguntas que te haga.
 
-Para jugar, haz click en la imagen:
+Para jugar, haz click [aquí para jugar](https://scratch.mit.edu/projects/436790545/fullscreen/)
 
-[![intro](fondos/intro/intro.png)](https://scratch.mit.edu/projects/436790545/fullscreen/)
+![intro](fondos/intro/intro.png)
 
 
 ## Sobre el proyecto educativo
@@ -24,11 +24,8 @@ Por ello, se pensó que el sistema de saber binario, octal y hexadecimal fuese l
 
 Todos hemos jugado a algún juego tipo RGP ([Zelda](https://es.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past), [Soleil](https://en.wikipedia.org/wiki/Crusader_of_Centy), [Pokemon](https://es.wikipedia.org/wiki/Pok%C3%A9mon_rojo_y_Pok%C3%A9mon_azul), ...) en el que había un objetivo principal y para conseguirlo había que conseguir subobjetivos o acabar con enemigos. Con esta idea en mente se ha creado **The Legend of Neo - A fix to the Matrix**.
 
-### Diseño del juego
-El juego está diseñado en Scratch
 
-
-## Objetivo educativo
+### Objetivo educativo
 El juego ha sido creado teniendo en cuenta la asignatura de Informática para cursos de Enseñanza Secundaria Obligatoria.
 
 Este proyecto tiene como objetivos:
@@ -40,6 +37,17 @@ Este proyecto tiene como objetivos:
   * Tarjeta gráfica
 * Conocer los formatos numéricos utilizados en informática (binario, octal y hexadecimal)
 * Aprender a programar en Scratch
+
+### Diseño del juego
+El juego está diseñado en [Scratch](https://scratch.mit.edu/). La licencia del juego es [Creative Commons Attribution-ShareAlike 4.0 International](LICENSE.txt).
+
+El juego cuenta con varias secciones. Las más importantes:
+* **Personaje principal**: El personaje no se mueve, lo que hace es modificar las coordenadas donde debería estar, y los mapas se mueven
+* **Personaje detector**: Para mejorar la detección de movimientos es un objeto que equivale a los pies del personaje y es lo que se comprueba si es lo que toca con los objetos
+* **Objetos de mapa**: El mapa general, al no poderse utilizar en Scratch completo, se tiene que partir en objetos de 480x360 pixéles. Estos objetos son los que se mueven
+* **Objetos de detección de movimientos**: Se mueven al unísono con los anteriores, pero en una capa trasera. Si detectan que van a tocar al personaje, no se puede mover.
+
+
 
 
 ## Herramientas utilizadas
