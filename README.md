@@ -12,7 +12,7 @@ Cuando un personaje te pregunte, dile "si" o "no" si quieres su ayuda. Después,
 
 Para jugar, haz click [aquí para jugar](https://scratch.mit.edu/projects/436790545/fullscreen/)
 
-![intro](fondos/intro/intro.png)
+![intro](https://raw.githubusercontent.com/yuki/The-Legend-of-Neo/main/fondos/intro/Intro.png)
 
 
 ## Sobre el proyecto educativo
