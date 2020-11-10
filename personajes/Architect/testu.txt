@@ -1,0 +1,28 @@
+# Sarrera
+
+## 1
+Kaixo, ni Arkitektoa naiz.
+Hola, soy el Arquitecto.
+Hello, I'm the Architect.
+
+## 2
+Ikusi daitekeen moduan, Matrix errore mordoxka dauzka.
+Como puedes ver, Matrix está sufriendo muchos errores.
+You can see that Matrix has a lot of errors.
+
+## 3
+Konpontzeko, ordenagailu zati berriak aurkitu beharko ditugu.
+Para solucionarlo tenemos que encontrar componentes nuevos de ordenador.
+To fix it, we need to find new computer components.
+
+## 4
+Joan zaitez hoien bila eta ekarri amaitu eta gero.
+Vete a buscarlos y traelos cuando termines.
+Go and find them, and come back when finished.
+
+
+# Amaiera
+## 5
+Matrix konpondu duzu. Zorionak!
+Has arreglado Matrix. ¡Enhorabuena!
+You fix Matrix. Congratulations!

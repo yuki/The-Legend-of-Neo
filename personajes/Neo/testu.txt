@@ -1,0 +1,32 @@
+# Sarrera itxaron erantzuna
+
+## 1
+Bale, banoa.
+Vale, voy.
+Ok.
+
+
+# Sarrera amaiera
+## 2
+5 ordenagailu zati berriak behar ditut Matrix konpontzeko.
+Necesito 5 componentes nuevos de ordenador para arreglar Matrix.
+I need 5 new PC componentes to fix Matrix.
+
+## 3
+Ea zer aurkitzen dudan mundu honetan.
+A ver qué encuentro por este mundo.
+Let's see what I found in this world.
+
+
+# Movimiento
+## 4
+Ezin dut!
+¡No puedo!
+I can't!
+
+
+# Juego terminado
+## 5
+Ordenagailu zati guztiak dauzkat. Arkitektoaren etxera joan behar naiz.
+Tengo todas los componentes. Tengo que volver a casa del Arquitecto.
+I have all the PC components. I have to go to Architect's house.
