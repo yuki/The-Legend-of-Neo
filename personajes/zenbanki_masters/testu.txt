@@ -1,0 +1,78 @@
+# al tocar
+
+## 1
+Matrix txarto dabilela entzun dut.
+He oido que Matrix está funcionando mal.
+I heard that Matrix isn't working well.
+
+## 2
+Ordenagailu zati berriak dauzkat. Behar dituzu?
+Tengo componentes de ordenador nuevos. ¿Los necesitas?
+I have computer components. Do you need them?
+
+## 3 -- sin piezas
+Ez daukat zati gehiagorik. Barkatu.
+No tengo más componentes. Lo siento.
+I haven't got any componentes. I'm sorry.
+
+## 4 -- respuestas
+bai
+si
+yes
+
+## 5 -- responde algo que no es #4
+Beno ba. Agur.
+Pues nada. Adios.
+Ok! Bye.
+
+## 6 -- a jugar!
+Oso ondo, baina eman aurretik galderak batzuk erantzun behar dituzu. 3 aldiz ondo erantzun eta gero emango dizkizut.
+Muy bien, pero antes de dártelos, tienes que responder unas preguntas. Si aciertas 3 veces, te los doy.
+Ok, but you must answer 3 times correctly before I give them to you.
+
+
+# Preguntas de conversiones
+## 7
+Nola da hamartar zenbakia 
+¿Cómo es el número decimal 
+How is decimal number 
+
+## 8
+ bitarrean?
+ en binario?
+ in binary?
+
+## 9
+ zortzitarrean?
+ en octal?
+ in octal?
+
+## 10
+ hamaseitarrean?
+ en hexadecimal?
+ in hexadecimal?
+
+
+# Resultado
+## 11
+Oso ondo!
+¡Muy bien!
+Well done!
+
+## 12
+Ez da horrela.
+No es así.
+You're wrong.
+
+# Entregar pieza
+## 13
+Oso ondo egin duzu! Hartu ezazu daukadan zatia.
+¡Lo has hecho muy bien!. Toma el componente que tengo.
+You've done very well! Here you have the component.
+
+
+# No más piezas
+## 14
+Ez daukat zati gehiagorik. Zoaz bilatzera mapatik zehar.
+No tengo más componentes para poder darte. Busca por el mapa.
+I have no more componentes. Go and find them in the map.
