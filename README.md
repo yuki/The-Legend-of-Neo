@@ -1,4 +1,6 @@
 ![title.png](title.png)
+
+
 Una prueba de concepto creado en [Scratch](https://scratch.mit.edu/) en forma de juego educativo, basado en los clásicos RPG de los 90 de las consolas de 16 bits.
 
 El juego ha sido creado desde el principio con un sistema multi-idioma (euskera, castellano e inglés) y con varios niveles de dificultad.
@@ -22,7 +24,7 @@ Haz click [aquí para jugar](https://scratch.mit.edu/projects/436790545/fullscre
 ### Descripción del proyecto
 La idea original era crear un conversor de números decimales a formato binario, octal y hexadecimal en forma de juego para conseguir puntos si se acertaba la respuesta. El único objetivo era conseguir la mayor puntuación posible, y tarde o temprano terminaba siendo aburrido.
 
-Por ello, se pensó que el sistema de saber binario, octal y hexadecimal fuese la herramienta, o "*arma*", para ganar en un juego por encima de éste. De ahí nacio la idea de crear un juego con unos objetivos que fuesen distintos a los originales.
+Por ello, se pensó que el sistema de saber binario, octal y hexadecimal fuese la herramienta, o "*arma*", para ganar en un juego por encima de éste. De ahí nació la idea de crear un juego con unos objetivos que fuesen distintos a los originales.
 
 Todos hemos jugado a algún juego tipo RPG ([Zelda](https://es.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past), [Soleil](https://en.wikipedia.org/wiki/Crusader_of_Centy), [Pokemon](https://es.wikipedia.org/wiki/Pok%C3%A9mon_rojo_y_Pok%C3%A9mon_azul), ...) en el que había un objetivo principal y para conseguirlo había que conseguir subobjetivos o acabar con enemigos. Con esta idea en mente se ha creado **The Legend of Neo - A fix to the Matrix**.
 
@@ -37,7 +39,7 @@ También se ha creado con varios niveles de dificultad:
 ### Objetivo educativo
 El juego ha sido creado teniendo en cuenta la asignatura de Informática para los cursos de Enseñanza Secundaria Obligatoria.
 
-Este proyecto tiene como objetivos:
+El proyecto tiene como objetivos:
 * Enseñar los componentes básicos de un ordenador actual:
   * Placa base
   * Procesador
@@ -54,10 +56,10 @@ La idea es que el juego se amplíe con zonas nuevas del mapa, ya que el mapa act
 El juego está diseñado en [Scratch](https://scratch.mit.edu/). Se puede ver cómo se ha programado en la web del [proyecto](https://scratch.mit.edu/projects/436790545/)
 
 El juego cuenta con varios apartados. Las más importantes:
-* **Personaje principal**: El personaje no se mueve, lo que hace es modificar las coordenadas donde debería estar, y los mapas se mueven teniendo en cuenta estas variables modificadas.
+* **Personaje principal**: El personaje no se mueve, lo que hace es modificar las coordenadas donde debería estar, y el mapa se mueve teniendo en cuenta estas variables modificadas.
 * **Personaje detector**: Para mejorar la detección de movimientos es un objeto que equivale a los pies del personaje y es lo que se comprueba si es lo que toca con los objetos.
-* **Objetos de mapa**: El mapa, al no poderse utilizar en Scratch completo, se ha tenido que partir en objetos de 480x360 pixéles. Estos objetos son los que se mueven de manera coordinada para dar la sensación de movimiento.
-* **Objetos de detección de movimientos**: Se mueven al unísono con los anteriores, pero en una capa trasera. Si detectan que van a tocar al personaje, no se puede mover.
+* **Objetos de mapa**: El mapa se ha tenido que partir en dibujos de 480x360 pixéles, ya que Scratch no soporta dibujos de más tamaño. Estos dibujos son los que se mueven de manera coordinada para dar la sensación de movimiento.
+  * **Objetos de detección de movimientos**: Al intentar el movimiento se cambia por este objeto, comprueba si detectan que van a tocar al personaje, y luego se cambia por el fondo real.
 
 ### Objetos utilizados
 A continuación una breve descripción de los objetos utilizados en el juego y que encontramos en este proyecto:
