@@ -21,7 +21,7 @@ permissions:
   id-token: write
 
 jobs:
-  export_linux:
+  Compile_Game:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -38,11 +38,6 @@ jobs:
         run: godot --headless --export-release Linux
       - name: Build Web
         run: godot --headless --export-release Web
-      - name: Archive Version
-        uses: actions/upload-artifact@v4
-        with:
-          path: build/
-          if-no-files-found: error
       - name: Create GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

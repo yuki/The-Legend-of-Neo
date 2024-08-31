@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://b11lmg8wktok5"]
 
 [ext_resource type="Texture2D" uid="uid://cfbkf1epxa70a" path="res://assets/images/gui/hacker.png" id="1_rf572"]
-[ext_resource type="Script" path="res://main_menu.gd" id="1_ukh4i"]
+[ext_resource type="Script" path="res://scenes/main_menu.gd" id="1_ukh4i"]
 [ext_resource type="FontFile" uid="uid://d0pl7tjcbwjdj" path="res://assets/fonts/Triforce-y07d.ttf" id="2_sgisl"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_brp1x"]
