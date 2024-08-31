@@ -1,0 +1,53 @@
+# LANGUAGE translation for The Legend of Neo for the following files:
+# res://main_menu.gd
+# res://main_menu.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: The Legend of Neo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: main_menu.tscn
+msgid "The Legend of NEO"
+msgstr ""
+
+#: main_menu.tscn
+msgid "A fix to the Matrix"
+msgstr ""
+
+#: main_menu.tscn
+msgid "PLAY"
+msgstr ""
+
+#: main_menu.tscn
+msgid "OPTIONS"
+msgstr ""
+
+#: main_menu.tscn
+msgid "Language"
+msgstr ""
+
+#: main_menu.tscn
+msgid "Castellano"
+msgstr ""
+
+#: main_menu.tscn
+msgid "Euskera"
+msgstr ""
+
+#: main_menu.tscn
+msgid "English"
+msgstr ""
+
+#: main_menu.tscn
+msgid "Difficulty"
+msgstr ""
+
+#: main_menu.tscn
+msgid "Back"
+msgstr ""
