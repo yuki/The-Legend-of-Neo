@@ -1,0 +1,52 @@
+name: Godot CI/CD
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+        compileVersion:
+            description: 'Which Version compile?'
+            required: true
+            default: 'All'
+            type: choice
+            options:
+            - All
+            - Linux
+            - Web
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  export_linux:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    container: dunkelgrau/godot:4.2.2
+    steps:
+      - name: Create symbolic link for export templates
+        run: ln -s /root/.local /github/home/.local
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Import Godot project
+        run: godot --headless --import
+      - name: Build Linux
+        run: godot --headless --export-release Linux
+      - name: Build Web
+        run: godot --headless --export-release Web
+      - name: Archive Version
+        uses: actions/upload-artifact@v4
+        with:
+          path: build/
+          if-no-files-found: error
+      - name: Create GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './build'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
