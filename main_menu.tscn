@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://b11lmg8wktok5"]
+[gd_scene load_steps=5 format=3 uid="uid://b11lmg8wktok5"]
 
 [ext_resource type="Texture2D" uid="uid://cfbkf1epxa70a" path="res://assets/images/gui/hacker.png" id="1_rf572"]
+[ext_resource type="Script" path="res://main_menu.gd" id="1_ukh4i"]
 [ext_resource type="FontFile" uid="uid://d0pl7tjcbwjdj" path="res://assets/fonts/Triforce-y07d.ttf" id="2_sgisl"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_brp1x"]
@@ -14,6 +15,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_ukh4i")
 
 [node name="Title" type="Label" parent="."]
 layout_mode = 1
@@ -22,7 +24,7 @@ anchor_left = 0.5
 anchor_right = 0.5
 offset_left = -508.5
 offset_right = 508.5
-offset_bottom = 118.0
+offset_bottom = 150.0
 grow_horizontal = 2
 size_flags_vertical = 0
 theme_override_fonts/font = ExtResource("2_sgisl")
@@ -37,9 +39,9 @@ anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
 offset_left = -252.5
-offset_top = 170.0
+offset_top = 200.0
 offset_right = 252.5
-offset_bottom = 229.0
+offset_bottom = 259.0
 grow_horizontal = 2
 theme_override_fonts/font = ExtResource("2_sgisl")
 theme_override_font_sizes/font_size = 64
@@ -65,3 +67,79 @@ theme_override_styles/panel = SubResource("StyleBoxFlat_brp1x")
 position = Vector2(225, 225)
 scale = Vector2(0.2, 0.2)
 texture = ExtResource("1_rf572")
+
+[node name="IntroContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -200.0
+offset_top = -400.0
+offset_right = 200.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="Play" type="Button" parent="IntroContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "PLAY"
+
+[node name="Options" type="Button" parent="IntroContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "OPTIONS"
+
+[node name="OptionsContainer" type="VBoxContainer" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -200.0
+offset_top = -400.0
+offset_right = 200.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="OptionsContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Language" type="Button" parent="OptionsContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "Language"
+
+[node name="OptionButton" type="OptionButton" parent="OptionsContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+alignment = 1
+selected = 0
+item_count = 3
+popup/item_0/text = "Castellano"
+popup/item_1/text = "Euskera"
+popup/item_1/id = 1
+popup/item_2/text = "English"
+popup/item_2/id = 2
+
+[node name="Difficulty" type="Button" parent="OptionsContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "Difficulty"
+
+[node name="Back" type="Button" parent="OptionsContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "Back"
+
+[connection signal="pressed" from="IntroContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="IntroContainer/Options" to="." method="_on_options_pressed"]
+[connection signal="pressed" from="OptionsContainer/Back" to="." method="_on_back_pressed"]
