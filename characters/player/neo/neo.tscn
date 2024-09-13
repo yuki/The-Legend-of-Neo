@@ -278,20 +278,18 @@ animations = [{
 "speed": 18.0
 }]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_nau1n"]
-radius = 19.0
-height = 90.0
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bdaje"]
+radius = 13.0
 
 [node name="Neo" type="Area2D"]
 script = ExtResource("1_ockuj")
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_wek63")
 animation = &"down"
 autoplay = "up"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 11)
-shape = SubResource("CapsuleShape2D_nau1n")
+position = Vector2(0, 15)
+shape = SubResource("CapsuleShape2D_bdaje")
