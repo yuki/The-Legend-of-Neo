@@ -13,7 +13,7 @@ func _process(delta: float) -> void:
 
 func _on_play_pressed() -> void:
 	#get_tree().change_scene_to_packed(load("res://scenes/recorded/intro.tscn"))
-	SceneManager.change_scene("res://scenes/recorded/intro.tscn", {"pattern_enter": "vertical", "pattern_leave": "circle"})
+	SceneManager.change_scene("res://scenes/maps/map_01.tscn", {"pattern_enter": "vertical", "pattern_leave": "circle"})
 	#pass # Replace with function body.
 
 
